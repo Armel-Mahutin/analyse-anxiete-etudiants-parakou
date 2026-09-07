@@ -1,0 +1,34 @@
+# ==============================================================================
+# DONNEES PERSONNELLES / SENSIBLES -- NE JAMAIS PUBLIER SUR GITHUB
+# ==============================================================================
+# Ces éléments contiennent des réponses individuelles d'étudiants (âge, sexe,
+# scores d'anxiété/stress, etc.) collectées dans le cadre d'une étude avec
+# consentement pour un usage de recherche -- pas pour une diffusion publique.
+
+data/
+*.xlsx
+*.xls
+*.csv
+
+# Dossier de résultats généré par le script (tableaux + données nettoyées
+# avec scores individuels + figures) -- entièrement dérivé des données brutes
+resultats_anxiete/
+
+# ==============================================================================
+# FICHIERS TECHNIQUES PYTHON standards
+# ==============================================================================
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ==============================================================================
+# FICHIERS SYSTEME / EDITEUR
+# ==============================================================================
+.vscode/
+.DS_Store
+Thumbs.db
